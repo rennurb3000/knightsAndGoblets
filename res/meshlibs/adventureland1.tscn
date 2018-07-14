@@ -1,0 +1,353 @@
+[gd_scene load_steps=24 format=2]
+
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_low_d.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_low_l.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_low.tres" type="Material" id=3]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_low_ld.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_low_lu.obj" type="ArrayMesh" id=5]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_low_r.obj" type="ArrayMesh" id=6]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_low_rd.obj" type="ArrayMesh" id=7]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_low_ru.obj" type="ArrayMesh" id=8]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_low_u.obj" type="ArrayMesh" id=9]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_mid_d.obj" type="ArrayMesh" id=10]
+[ext_resource path="res://meshlibs/adventureland/tex/cobble_mid.tres" type="Material" id=11]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_mid_l.obj" type="ArrayMesh" id=12]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_mid_ld.obj" type="ArrayMesh" id=13]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_mid_lu.obj" type="ArrayMesh" id=14]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_mid_r.obj" type="ArrayMesh" id=15]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_mid_rd.obj" type="ArrayMesh" id=16]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_mid_ru.obj" type="ArrayMesh" id=17]
+[ext_resource path="res://meshlibs/adventureland/objs/cobble_mid_u.obj" type="ArrayMesh" id=18]
+[ext_resource path="res://meshlibs/adventureland/objs/ground_1.obj" type="ArrayMesh" id=19]
+[ext_resource path="res://meshlibs/adventureland/tex/ground.tres" type="Material" id=20]
+[ext_resource path="res://meshlibs/adventureland/objs/way_hor.obj" type="ArrayMesh" id=21]
+[ext_resource path="res://meshlibs/adventureland/tex/street.tres" type="Material" id=22]
+[ext_resource path="res://meshlibs/adventureland/objs/way_ver.obj" type="ArrayMesh" id=23]
+
+[node name="Spatial" type="Spatial" index="0"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.5902, -0.272138, -13.1754 )
+
+[node name="cobble_low_d" type="MeshInstance" parent="." index="0"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9328, 9.88805, 10.5802 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 1 )
+skeleton = NodePath("..")
+material/0 = null
+
+[node name="coblle_low_l" type="MeshInstance" parent="." index="1"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9705, 9.88805, 6.80334 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 2 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 3 )
+_sections_unfolded = [ "material" ]
+
+[node name="cobble_low_ld" type="MeshInstance" parent="." index="2"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9328, 9.62391, 2.68765 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 4 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 3 )
+_sections_unfolded = [ "material" ]
+
+[node name="cobble_low_lu" type="MeshInstance" parent="." index="3"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9328, 9.88805, 2.68765 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 5 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 3 )
+_sections_unfolded = [ "material" ]
+
+[node name="coble_low_r" type="MeshInstance" parent="." index="4"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9328, 9.88805, 2.68765 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 6 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 3 )
+_sections_unfolded = [ "material" ]
+
+[node name="cobble_low_rd" type="MeshInstance" parent="." index="5"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9328, 9.88805, 2.68765 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 7 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 3 )
+_sections_unfolded = [ "material" ]
+
+[node name="cobble_low_ru" type="MeshInstance" parent="." index="6"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9328, 9.88805, 2.68765 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 8 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 3 )
+_sections_unfolded = [ "material" ]
+
+[node name="cobble_low_u" type="MeshInstance" parent="." index="7"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9328, 13.9518, 2.68765 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 9 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 3 )
+_sections_unfolded = [ "material" ]
+
+[node name="cobble_mid_d" type="MeshInstance" parent="." index="8"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.7583, 9.85243, 2.52809 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 10 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 11 )
+_sections_unfolded = [ "material" ]
+
+[node name="cobble_mid_l" type="MeshInstance" parent="." index="9"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9503, 10.0126, 2.72833 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 12 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 11 )
+_sections_unfolded = [ "material" ]
+
+[node name="cobble_mid_ld" type="MeshInstance" parent="." index="10"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.6866, 12.5543, 2.02701 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 13 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 11 )
+_sections_unfolded = [ "material" ]
+
+[node name="cobble_mid_lu" type="MeshInstance" parent="." index="11"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9328, 9.88805, 2.68765 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 14 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 11 )
+_sections_unfolded = [ "material" ]
+
+[node name="cobble_mid_r" type="MeshInstance" parent="." index="12"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9328, 9.88805, 2.68765 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 15 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 11 )
+_sections_unfolded = [ "material" ]
+
+[node name="cobble_mid_rd" type="MeshInstance" parent="." index="13"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.6803, 11.8768, 5.73013 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 16 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 11 )
+_sections_unfolded = [ "material" ]
+
+[node name="cobble_mid_ru" type="MeshInstance" parent="." index="14"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 23.1811, 14.7783, 4.99043 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 17 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 11 )
+_sections_unfolded = [ "material" ]
+
+[node name="cobble_mid_u" type="MeshInstance" parent="." index="15"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9328, 9.88805, 2.68765 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 18 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 11 )
+_sections_unfolded = [ "material" ]
+
+[node name="ground1" type="MeshInstance" parent="." index="16"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.4972, 14.5299, 0.710542 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 19 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 20 )
+_sections_unfolded = [ "material" ]
+
+[node name="way_hor" type="MeshInstance" parent="." index="17"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9328, 9.88805, 2.68765 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 21 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 22 )
+_sections_unfolded = [ "material" ]
+
+[node name="way_vert" type="MeshInstance" parent="." index="18"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9328, 8.66812, 2.68765 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 23 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 22 )
+_sections_unfolded = [ "material" ]
+
+

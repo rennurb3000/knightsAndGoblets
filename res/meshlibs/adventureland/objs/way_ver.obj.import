@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/way_ver.obj-ca3b647a3727c2aa3bfc82b23c25a224.mesh"
+
+[deps]
+
+files=[ "res://.import/way_ver.obj-ca3b647a3727c2aa3bfc82b23c25a224.mesh" ]
+
+source_file="res://res/meshlibs/adventureland/objs/way_ver.obj"
+dest_files=[ "res://.import/way_ver.obj-ca3b647a3727c2aa3bfc82b23c25a224.mesh", "res://.import/way_ver.obj-ca3b647a3727c2aa3bfc82b23c25a224.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/cobble_mid_rd.obj-0896c4cf3d130a3466af0d91a7259d9b.mesh"
+
+[deps]
+
+files=[ "res://.import/cobble_mid_rd.obj-0896c4cf3d130a3466af0d91a7259d9b.mesh" ]
+
+source_file="res://res/meshlibs/adventureland/objs/cobble_mid_rd.obj"
+dest_files=[ "res://.import/cobble_mid_rd.obj-0896c4cf3d130a3466af0d91a7259d9b.mesh", "res://.import/cobble_mid_rd.obj-0896c4cf3d130a3466af0d91a7259d9b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
