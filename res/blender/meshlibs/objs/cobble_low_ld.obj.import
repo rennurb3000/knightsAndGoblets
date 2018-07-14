@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/cobble_low_ld.obj-0567de4f4565b69b21f12386577a2bbe.mesh"
+
+[deps]
+
+files=[ "res://.import/cobble_low_ld.obj-0567de4f4565b69b21f12386577a2bbe.mesh" ]
+
+source_file="res://res/blender/meshlibs/objs/cobble_low_ld.obj"
+dest_files=[ "res://.import/cobble_low_ld.obj-0567de4f4565b69b21f12386577a2bbe.mesh", "res://.import/cobble_low_ld.obj-0567de4f4565b69b21f12386577a2bbe.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

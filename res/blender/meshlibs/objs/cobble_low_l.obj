@@ -1,0 +1,15 @@
+# Blender v2.79 (sub 0) OBJ File: 'advl.blend'
+# www.blender.org
+mtllib cobble_low_l.mtl
+o cobble_low_l_Plane.034
+v -1.000000 2.000000 -1.000000
+v -1.000000 0.000000 -1.000000
+v -1.000000 2.000000 1.000000
+v -1.000000 0.000000 1.000000
+vt 1.000000 0.000106
+vt 0.000141 0.000106
+vt 0.000141 0.999965
+vt 1.000000 0.999965
+usemtl None
+s off
+f 2/1 4/2 3/3 1/4

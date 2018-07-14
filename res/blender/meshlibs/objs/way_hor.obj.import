@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/way_hor.obj-d00f7a8e9b5cf1e292e685f8b53cd8bd.mesh"
+
+[deps]
+
+files=[ "res://.import/way_hor.obj-d00f7a8e9b5cf1e292e685f8b53cd8bd.mesh" ]
+
+source_file="res://res/blender/meshlibs/objs/way_hor.obj"
+dest_files=[ "res://.import/way_hor.obj-d00f7a8e9b5cf1e292e685f8b53cd8bd.mesh", "res://.import/way_hor.obj-d00f7a8e9b5cf1e292e685f8b53cd8bd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
