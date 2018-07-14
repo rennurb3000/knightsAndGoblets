@@ -1,5 +1,7 @@
 extends Node
 
+signal request
+
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
@@ -17,4 +19,6 @@ func _init():
 func _process(delta):
 	var cn = srv.take_connection()
 	if(cn != null):
-		print(str(cn.get_partial_data(64)[1].get_string_from_ascii()))
+		var data = str(cn.get_partial_data(64)[1].get_string_from_ascii())
+		print("emit request")
+		emit_signal("request",data)
