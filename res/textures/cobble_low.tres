@@ -1,0 +1,8 @@
+[gd_resource type="StreamTexture" format=2]
+
+[resource]
+
+flags = 19
+load_path = "res://.import/cobble_low..png-5e65f4d1790b9e82cb8498ee7ff14844.s3tc.stex"
+_sections_unfolded = [ "Flags" ]
+

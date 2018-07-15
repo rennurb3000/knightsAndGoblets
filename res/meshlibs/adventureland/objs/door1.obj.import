@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/door1.obj-518cb7a80ef06d81f70460054d4dd8d3.mesh"
+
+[deps]
+
+files=[ "res://.import/door1.obj-518cb7a80ef06d81f70460054d4dd8d3.mesh" ]
+
+source_file="res://res/meshlibs/adventureland/objs/door1.obj"
+dest_files=[ "res://.import/door1.obj-518cb7a80ef06d81f70460054d4dd8d3.mesh", "res://.import/door1.obj-518cb7a80ef06d81f70460054d4dd8d3.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

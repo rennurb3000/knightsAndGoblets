@@ -1,0 +1,58 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://res/meshlibs/landscape.meshlib" type="MeshLibrary" id=1]
+
+[node name="GridMap" type="GridMap" index="0"]
+theme = ExtResource( 1 )
+cell_size = Vector3( 2, 2, 2 )
+cell_octant_size = 8
+cell_center_x = true
+cell_center_y = true
+cell_center_z = true
+cell_scale = 1.0
+collision_layer = 1
+collision_mask = 1
+data = {
+"cells": PoolIntArray( 0, 0, 2, 1, 0, 2, 2, 0, 1, 3, 0, 1, 65531, 0, 2, 65532, 0, 2, 65533, 0, 1, 65534, 0, 2, 65535, 0, 2, 0, 1, 2, 1, 1, 2, 2, 1, 0, 3, 1, 1, 5, 1, 0, 65533, 1, 1, 65534, 1, 1, 65535, 1, 2, 0, 2, 1, 1, 2, 2, 2, 2, 0, 3, 2, 1, 4, 2, 0, 5, 2, 0, 65534, 2, 1, 65535, 2, 2, 0, 3, 1, 1, 3, 0, 2, 3, 0, 3, 3, 0, 4, 3, 1, 65534, 3, 2, 65535, 3, 2, 0, 4, 2, 1, 4, 1, 2, 4, 1, 3, 4, 1, 4, 4, 1, 65535, 4, 1, 0, 5, 2, 1, 5, 1, 2, 5, 1, 65535, 5, 1, 0, 65532, 1, 1, 65532, 1, 2, 65532, 1, 65535, 65532, 1, 0, 65533, 2, 1, 65533, 2, 2, 65533, 1, 3, 65533, 1, 65533, 65533, 1, 65534, 65533, 1, 65535, 65533, 1, 0, 65534, 2, 1, 65534, 2, 2, 65534, 1, 3, 65534, 1, 65532, 65534, 1, 65533, 65534, 1, 65534, 65534, 2, 65535, 65534, 1, 0, 65535, 2, 1, 65535, 2, 2, 65535, 1, 3, 65535, 1, 65532, 65535, 1, 65533, 65535, 1, 65534, 65535, 2, 65535, 65535, 2 )
+}
+_sections_unfolded = [ "Cell" ]
+__meta__ = {
+"_editor_clip_": 0
+}
+
+[node name="Camera" type="Camera" parent="." index="0"]
+transform = Transform( 0.298101, -0.603772, 0.73932, 0, 0.774535, 0.63253, -0.954534, -0.188558, 0.23089, 9.98418, 4.44746, 5.71766 )
+keep_aspect = 1
+cull_mask = 1048575
+environment = null
+h_offset = 0.0
+v_offset = 0.0
+doppler_tracking = 0
+projection = 0
+current = false
+fov = 70.0
+size = 1.0
+near = 0.05
+far = 100.0
+
+[node name="SpotLight" type="SpotLight" parent="." index="1"]
+transform = Transform( 1, 0, 0, 0, 0.482192, 0.876065, 0, -0.876065, 0.482192, 0, 4.73928, 8.27138 )
+layers = 1
+light_color = Color( 1, 1, 1, 1 )
+light_energy = 1.0
+light_indirect_energy = 1.0
+light_negative = false
+light_specular = 0.5
+light_bake_mode = 1
+light_cull_mask = -1
+shadow_enabled = false
+shadow_color = Color( 0, 0, 0, 1 )
+shadow_bias = 0.15
+shadow_contact = 0.0
+shadow_reverse_cull_face = false
+editor_only = false
+spot_range = 5.0
+spot_attenuation = 1.0
+spot_angle = 45.0
+spot_angle_attenuation = 1.0
+

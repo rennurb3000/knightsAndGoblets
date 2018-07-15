@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/water.obj-38a8e02edac75d949729836253d0dd09.mesh"
+
+[deps]
+
+files=[ "res://.import/water.obj-38a8e02edac75d949729836253d0dd09.mesh" ]
+
+source_file="res://res/meshlibs/adventureland/objs/water.obj"
+dest_files=[ "res://.import/water.obj-38a8e02edac75d949729836253d0dd09.mesh", "res://.import/water.obj-38a8e02edac75d949729836253d0dd09.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

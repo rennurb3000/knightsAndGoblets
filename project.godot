@@ -11,8 +11,12 @@ config_version=4
 [application]
 
 config/name="KnightsAndGoblets"
-run/main_scene="res://res/system/server_script.tscn"
+run/main_scene="res://res/meshlibs/adventrueland2/test.tscn"
 config/icon="res://icon.png"
+
+[gdnative]
+
+singletons=[ "res://pythonscript.gdnlib" ]
 
 [input]
 
@@ -93,4 +97,5 @@ ui_end={
 
 [rendering]
 
+environment/default_clear_color=Color( 0.301961, 0.301961, 0.301961, 1 )
 environment/default_environment="res://default_env.tres"
